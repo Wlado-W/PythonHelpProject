@@ -1,0 +1,28 @@
+<TerminalsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '20dp'
+
+        Label:
+            text: 'Список терминалов'
+            font_size: '24sp'
+            size_hint_y: None
+            height: '48dp'
+
+        ScrollView:
+            GridLayout:
+                cols: 1
+                size_hint_y: None
+                height: self.minimum_height
+
+                Label:
+                    text: 'Терминал 1'
+                    font_size: '18sp'
+                    size_hint_y: None
+                    height: '48dp'
+
+                Label:
+                    text: 'Терминал 2'
+                    font_size: '18sp'
+                    size_hint_y: None
+                    height: '48dp'

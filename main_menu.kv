@@ -1,0 +1,16 @@
+<MainMenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '20dp'
+
+        Label:
+            text: 'Главное меню'
+            font_size: '24sp'
+            size_hint_y: None
+            height: '48dp'
+
+        Button:
+            text: 'Терминалы'
+            on_press: root.manager.current = 'terminals'
+            size_hint_y: None
+            height: '48dp'
